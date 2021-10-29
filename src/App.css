@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background: #3b5998;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+.header h1{
+  color: #fff;
+  width: 140px;
+  border-radius: 5px;
+  font-size: 25px;
+}
+section{
+  padding: 1rem;
+}
+
+.contents{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap : 2rem
+}
